@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Стоматологічна клініка «Київська» у Харкові — всі види стоматологічного лікування. Терапія, ортодонтія, хірургія, ортопедія. Запис: 0 (50) 716 73 21" />
+  <meta name="keywords" content="стоматологія Харків, стоматолог Харків, лікування зубів, відбілювання зубів, клініка Київська" />
+  <title>Стоматологічна клініка «Київська» | Харків</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Київська</span>
+      </a>
+      <nav class="navbar__links" id="navLinks">
+        <a href="#services" class="nav-link">Послуги</a>
+        <a href="#about" class="nav-link">Про клініку</a>
+        <a href="#results" class="nav-link">Результати</a>
+        <a href="#contact" class="nav-link">Контакти</a>
+        <a href="tel:+380507167321" class="nav-cta">Записатись</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="menuClose">✕</button>
+    <nav class="mobile-menu__nav">
+      <a href="#services" class="mobile-nav-link">Послуги</a>
+      <a href="#about" class="mobile-nav-link">Про клініку</a>
+      <a href="#results" class="mobile-nav-link">Результати</a>
+      <a href="#contact" class="mobile-nav-link">Контакти</a>
+      <a href="tel:+380507167321" class="mobile-cta">0 (50) 716 73 21</a>
+    </nav>
+    <div class="mobile-menu__footer">
+      <p>Щодня 8:00 — 16:00</p>
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__badge reveal">
+        <span class="badge-dot"></span>
+        Харків · Салтівське шосе, 262
+      </div>
+      <h1 class="hero__title reveal">
+        <span class="title-line">З нами ви</span>
+        <em class="title-accent">забудете</em>
+        <span class="title-line">що таке біль</span>
+        <span class="title-line title-sub">у стоматолога</span>
+      </h1>
+      <p class="hero__desc reveal">
+        Стоматологічна клініка «Київська» — всі види лікування<br />
+        для всієї родини. Терапія · Ортодонтія · Хірургія · Ортопедія
+      </p>
+      <div class="hero__actions reveal">
+        <a href="tel:+380507167321" class="btn-primary">
+          <span class="btn-icon">📞</span>
+          Записатись на прийом
+        </a>
+        <a href="#services" class="btn-ghost">Наші послуги →</a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="stat">
+          <span class="stat-num">490+</span>
+          <span class="stat-label">задоволених клієнтів</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">8:00–16:00</span>
+          <span class="stat-label">щодня без вихідних</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">800 грн</span>
+          <span class="stat-label">пломба / чистка зубів</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__visual reveal">
+      <div class="hero__card glass">
+        <div class="card-icon">🦷</div>
+        <p class="card-title">Безболісне лікування</p>
+        <p class="card-sub">Сучасна анестезія</p>
+      </div>
+      <div class="hero__card glass hero__card--offset">
+        <div class="card-icon">✨</span></div>
+        <p class="card-title">Відбілювання</p>
+        <p class="card-sub">Професійний результат</p>
+      </div>
+      <div class="hero__card glass hero__card--offset2">
+        <div class="card-icon">🏥</div>
+        <p class="card-title">Сімейна клініка</p>
+        <p class="card-sub">Для дорослих та дітей</p>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- RIBBON -->
+  <div class="ribbon">
+    <div class="ribbon__track">
+      <span>Терапія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Ортодонтія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Хірургія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Ортопедія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Відбілювання</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Імплантація</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Чистка зубів</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Лікування ясен</span>
+      <span class="ribbon-dot">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>Терапія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Ортодонтія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Хірургія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Ортопедія</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Відбілювання</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Імплантація</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Чистка зубів</span>
+      <span class="ribbon-dot">✦</span>
+      <span>Лікування ясен</span>
+      <span class="ribbon-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Що ми робимо</span>
+        <h2 class="section-title">Повний спектр<br /><em>стоматологічних послуг</em></h2>
+        <p class="section-desc">Клініка, куди приходять всією родиною — від першого зуба до протезування</p>
+      </div>
+      <div class="services__grid">
+
+        <article class="service-card reveal" style="--delay:0s">
+          <div class="service-card__num">01</div>
+          <div class="service-card__icon">🦷</div>
+          <h3 class="service-card__title">Терапія</h3>
+          <p class="service-card__desc">Лікування карієсу, пульпіту, відновлення зубів сучасними матеріалами. Пломба — від 800 грн.</p>
+          <div class="service-card__price">від 800 грн</div>
+          <div class="service-card__arrow">→</div>
+        </article>
+
+        <article class="service-card reveal" style="--delay:0.1s">
+          <div class="service-card__num">02</div>
+          <div class="service-card__icon">😁</div>
+          <h3 class="service-card__title">Ортодонтія</h3>
+          <p class="service-card__desc">Виправлення прикусу та положення зубів. Брекети та елайнери для дорослих і дітей.</p>
+          <div class="service-card__price">консультація безкоштовно</div>
+          <div class="service-card__arrow">→</div>
+        </article>
+
+        <article class="service-card reveal" style="--delay:0.2s">
+          <div class="service-card__num">03</div>
+          <div class="service-card__icon">🔬</div>
+          <h3 class="service-card__title">Хірургія</h3>
+          <p class="service-card__desc">Видалення зубів, імплантація, хірургічне лікування захворювань ясен. Безболісно.</p>
+          <div class="service-card__price">індивідуально</div>
+          <div class="service-card__arrow">→</div>
+        </article>
+
+        <article class="service-card reveal" style="--delay:0.3s">
+          <div class="service-card__num">04</div>
+          <div class="service-card__icon">👑</div>
+          <h3 class="service-card__title">Ортопедія</h3>
+          <p class="service-card__desc">Коронки, мости, вініри, протезування. Матеріали: Німеччина, Японія, Іспанія.</p>
+          <div class="service-card__price">від виробника</div>
+          <div class="service-card__arrow">→</div>
+        </article>
+
+        <article class="service-card reveal service-card--wide" style="--delay:0.4s">
+          <div class="service-card__num">05</div>
+          <div class="service-card__icon">✨</div>
+          <h3 class="service-card__title">Професійна чистка зубів</h3>
+          <p class="service-card__desc">Ультразвукова чистка та Air Flow — видалення нальоту та зубного каменю. Для здоров'я ясен та білої посмішки.</p>
+          <div class="service-card__price">800 грн</div>
+          <div class="service-card__arrow">→</div>
+        </article>
+
+        <article class="service-card reveal service-card--accent" style="--delay:0.5s">
+          <div class="service-card__num">06</div>
+          <div class="service-card__icon">🌟</div>
+          <h3 class="service-card__title">Відбілювання</h3>
+          <p class="service-card__desc">Професійне відбілювання зубів. Результат — до 8 тонів світліше вже після першого сеансу.</p>
+          <div class="service-card__price">за консультацією</div>
+          <div class="service-card__arrow">→</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__left reveal">
+          <span class="section-tag">Про нас</span>
+          <h2 class="section-title">Клініка,<br />якій <em>довіряють</em></h2>
+          <p class="about__text">
+            Стоматологія «Київська» — сучасна клініка у Харкові, де кожен пацієнт отримує увагу та індивідуальний підхід. Ми використовуємо обладнання та матеріали від провідних виробників Німеччини, Японії та Іспанії.
+          </p>
+          <p class="about__text">
+            Наша команда — досвідчені фахівці, які постійно підвищують кваліфікацію. Ми щиро переконані: похід до стоматолога не повинен бути стресом.
+          </p>
+          <div class="about__features">
+            <div class="feature">
+              <span class="feature-icon">🏆</span>
+              <span>Матеріали DE · JP · ES</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">💉</span>
+              <span>Сучасна безболісна анестезія</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">👨‍👩‍👧</span>
+              <span>Прийом дорослих та дітей</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">📅</span>
+              <span>Щодня 8:00 — 16:00</span>
+            </div>
+          </div>
+          <a href="tel:+380507167321" class="btn-primary">Записатись зараз</a>
+        </div>
+        <div class="about__right reveal">
+          <div class="about__image-stack">
+            <div class="stack-card stack-card--1 glass">
+              <div class="stack-inner">
+                <span class="stack-emoji">😊</span>
+                <p class="stack-text">Чому стан ясен<br />такий важливий?</p>
+              </div>
+            </div>
+            <div class="stack-card stack-card--2 glass">
+              <div class="stack-inner">
+                <span class="stack-emoji">🦷</span>
+                <p class="stack-text">Приходьте<br />всією родиною</p>
+              </div>
+            </div>
+            <div class="about__clinic-badge glass">
+              <span class="badge-num">490</span>
+              <span class="badge-text">підписників<br />Instagram</span>
+            </div>
+            <div class="about__bg-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO BANNER -->
+  <section class="promo">
+    <div class="container">
+      <div class="promo__inner reveal">
+        <div class="promo__content">
+          <span class="promo-tag">Акція</span>
+          <h3 class="promo__title">Пломба всього<br /><em>800 грн</em></h3>
+          <p class="promo__sub">Якісні матеріали · Сучасне обладнання · Безболісно</p>
+        </div>
+        <div class="promo__action">
+          <a href="tel:+380507167321" class="btn-promo">Отримати послугу</a>
+          <p class="promo__note">Дзвоніть: 0 (50) 716 73 21</p>
+        </div>
+        <div class="promo__deco">
+          <span class="deco-tooth">🦷</span>
+          <span class="deco-star">✦</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="results" id="results">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Наші роботи</span>
+        <h2 class="section-title">Результати, які<br /><em>говорять самі</em></h2>
+        <p class="section-desc">Реальні знімки — реальні пацієнти клініки «Київська»</p>
+      </div>
+      <div class="results__grid reveal">
+        <div class="result-item result-item--tall">
+          <div class="result-inner">
+            <span class="result-label">Відбілювання</span>
+          </div>
+        </div>
+        <div class="result-item">
+          <div class="result-inner">
+            <span class="result-label">Терапія</span>
+          </div>
+        </div>
+        <div class="result-item">
+          <div class="result-inner">
+            <span class="result-label">Ортопедія</span>
+          </div>
+        </div>
+        <div class="result-item result-item--wide">
+          <div class="result-inner">
+            <span class="result-label">Ортодонтія</span>
+          </div>
+        </div>
+        <div class="result-item">
+          <div class="result-inner">
+            <span class="result-label">Імплантація</span>
+          </div>
+        </div>
+      </div>
+      <div class="results__mosaic reveal">
+        <div class="mosaic-text">
+          <p>Кожна посмішка — наша гордість. Ми документуємо кожен результат, щоб ви могли бачити якість нашої роботи.</p>
+          <a href="https://www.instagram.com/dentistry_kievskaya/" target="_blank" rel="noopener" class="btn-ghost">Більше в Instagram →</a>
+        </div>
+        <div class="mosaic-pills">
+          <span class="pill">Пломба — 800 грн</span>
+          <span class="pill">Чистка — 800 грн</span>
+          <span class="pill">Вініри</span>
+          <span class="pill">Брекети</span>
+          <span class="pill">Коронки</span>
+          <span class="pill">Протезування</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Чому ми</span>
+        <h2 class="section-title">Чому варто<br /><em>терпіти зубний біль?</em></h2>
+        <p class="section-desc">Не варто. Ми вирішуємо проблему вже сьогодні.</p>
+      </div>
+      <div class="why__grid">
+        <div class="why-item reveal" style="--delay:0s">
+          <div class="why-item__icon">🔬</div>
+          <h4>Сучасне обладнання</h4>
+          <p>Діагностика та лікування на обладнанні світових брендів. Точність і комфорт.</p>
+        </div>
+        <div class="why-item reveal" style="--delay:0.1s">
+          <div class="why-item__icon">💊</div>
+          <h4>Безболісне лікування</h4>
+          <p>Ефективна анестезія та делікатний підхід. Лікування без стресу та болю.</p>
+        </div>
+        <div class="why-item reveal" style="--delay:0.2s">
+          <div class="why-item__icon">👨‍👩‍👧‍👦</div>
+          <h4>Для всієї родини</h4>
+          <p>Приймаємо дорослих і дітей. Станьте нашим сімейним пацієнтом.</p>
+        </div>
+        <div class="why-item reveal" style="--delay:0.3s">
+          <div class="why-item__icon">🌍</div>
+          <h4>Імпортні матеріали</h4>
+          <p>Матеріали з Німеччини, Японії, Іспанії. Довговічний та естетичний результат.</p>
+        </div>
+        <div class="why-item reveal" style="--delay:0.4s">
+          <div class="why-item__icon">📞</div>
+          <h4>Легкий запис</h4>
+          <p>Один дзвінок — і ви вже в черзі. Консультуємо по телефону та в Instagram.</p>
+        </div>
+        <div class="why-item reveal" style="--delay:0.5s">
+          <div class="why-item__icon">🕗</div>
+          <h4>Зручний графік</h4>
+          <p>Працюємо щодня з 8:00 до 16:00 — без вихідних та перерв.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__info reveal">
+          <span class="section-tag">Контакти</span>
+          <h2 class="section-title">Запишіться<br /><em>вже сьогодні</em></h2>
+          <div class="contact-items">
+            <a href="tel:+380507167321" class="contact-item">
+              <div class="ci-icon">📞</div>
+              <div class="ci-text">
+                <span class="ci-label">Телефон</span>
+                <span class="ci-val">0 (50) 716 73 21</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="ci-icon">📍</div>
+              <div class="ci-text">
+                <span class="ci-label">Адреса</span>
+                <span class="ci-val">Салтівське шосе, 262<br />Харків, Україна</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">🕗</div>
+              <div class="ci-text">
+                <span class="ci-label">Графік роботи</span>
+                <span class="ci-val">Щодня 8:00 — 16:00</span>
+              </div>
+            </div>
+            <a href="https://www.instagram.com/dentistry_kievskaya/" target="_blank" rel="noopener" class="contact-item">
+              <div class="ci-icon">📸</div>
+              <div class="ci-text">
+                <span class="ci-label">Instagram</span>
+                <span class="ci-val">@dentistry_kievskaya</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact__form-wrap reveal">
+          <div class="contact-form glass">
+            <h3 class="form-title">Залишити заявку</h3>
+            <p class="form-sub">Передзвонимо протягом 30 хвилин</p>
+            <div class="form-group">
+              <label for="name">Ваше ім'я</label>
+              <input type="text" id="name" name="name" placeholder="Як вас звати?" autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Номер телефону</label>
+              <input type="tel" id="phone" name="phone" placeholder="+38 (0__) ___ __ __" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="service">Послуга</label>
+              <select id="service" name="service">
+                <option value="">Оберіть послугу</option>
+                <option>Терапія / Лікування</option>
+                <option>Ортодонтія / Брекети</option>
+                <option>Хірургія / Видалення</option>
+                <option>Ортопедія / Протезування</option>
+                <option>Чистка зубів</option>
+                <option>Відбілювання</option>
+                <option>Консультація</option>
+              </select>
+            </div>
+            <button class="btn-submit" id="submitBtn" type="button">
+              Надіслати заявку
+            </button>
+            <p class="form-privacy">Натискаючи кнопку, ви погоджуєтесь на обробку персональних даних</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Стоматологічна клініка «Київська»</span>
+        </div>
+        <div class="footer__links">
+          <a href="#services">Послуги</a>
+          <a href="#about">Про нас</a>
+          <a href="#results">Результати</a>
+          <a href="#contact">Контакти</a>
+        </div>
+        <div class="footer__contact">
+          <a href="tel:+380507167321">0 (50) 716 73 21</a>
+          <span>Салтівське шосе, 262, Харків</span>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024 Стоматологічна клініка «Київська». Харків.</p>
+        <p>Щодня 8:00 — 16:00</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING CTA -->
+  <a href="tel:+380507167321" class="float-cta" id="floatCta" aria-label="Зателефонувати">
+    <span class="float-cta__icon">📞</span>
+    <span class="float-cta__text">Записатись</span>
+  </a>
+
+  <!-- SUCCESS MODAL -->
+  <div class="modal" id="successModal">
+    <div class="modal__box glass">
+      <button class="modal__close" id="modalClose">✕</button>
+      <div class="modal__icon">✅</div>
+      <h3>Заявку отримано!</h3>
+      <p>Ми передзвонимо вам протягом 30 хвилин у робочий час.</p>
+      <a href="tel:+380507167321" class="btn-primary">Або зателефонуйте нам</a>
+    </div>
+  </div>
+  <div class="modal-overlay" id="modalOverlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
