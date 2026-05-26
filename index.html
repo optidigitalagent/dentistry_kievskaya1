@@ -142,15 +142,15 @@
       pointer-events: none;
       overflow: hidden;
     }
-    .hero__video-bg iframe {
+    .hero__video-bg video {
       position: absolute;
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
-      width: 177.78vh; /* 16/9 * 100vh */
-      height: 100vh;
       min-width: 100%;
-      min-height: 56.25vw; /* 9/16 * 100vw */
-      border: none;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: cover;
       pointer-events: none;
     }
     .hero__video-overlay {
@@ -789,12 +789,10 @@
   <section class="hero" id="hero">
     <!-- VIDEO BACKGROUND -->
     <div class="hero__video-bg">
-      <iframe
-        src="https://player.cloudinary.com/embed/?cloud_name=dvresewhf&public_id=0510_nieny1&autoplay=true&loop=true&muted=true&controls=false&background=true"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-        title=""
-      ></iframe>
+      <video autoplay muted loop playsinline>
+        <source src="https://res.cloudinary.com/dvresewhf/video/upload/0510_nieny1.mp4" type="video/mp4">
+        <source src="https://res.cloudinary.com/dvresewhf/video/upload/0510_nieny1.webm" type="video/webm">
+      </video>
     </div>
     <div class="hero__video-overlay"></div>
     <div class="hero__deco">
